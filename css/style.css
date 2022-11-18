@@ -32,6 +32,7 @@ h1 {
  
   }
 .headerJumbotron {
+  overflow: auto;
   background-color: #228AEA;
   margin-bottom: 5%;
   Padding-top: 18%;
@@ -40,12 +41,13 @@ h1 {
   color: white;
 }
 #headerImage {
+  overflow: auto;
   float: right;
   width: 100%;
   max-width: 900px;
   height: auto;
-  margin-right: 10%;
-  margin-top: -20%;
+  margin-right: 5%;
+  margin-top: -10%;
 }
 
 .lead{
@@ -198,6 +200,35 @@ li {
   width: 100%;
   height: auto;
   max-width: 400px;
+}
+.sketchesII{
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+}
+
+.sketchesIII{
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+}
+.empathyMap{
+  text-align: center;
+  margin-bottom: -3%;
+}
+
+.priorityMatrix {
+  text-align: center;
+  margin: 3%;
+}
+
+.priorityMatrix2 {
+  text-align: center;
+  margin: 3%;
+}
+
+.flex-Container {
+  flex-direction: column;
 }
 
 #userInterview {

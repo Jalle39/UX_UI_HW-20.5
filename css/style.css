@@ -1,0 +1,400 @@
+html {scroll-behavior: smooth}
+
+h1 {
+    font-family: Lusitana;
+  }
+  section.sticky {
+    position: sticky;
+    top: 0;
+    z-index: +1
+  }
+   .topnav {
+  background-color: #223C54;
+  overflow: hidden;
+  margin: 0px -10px;
+  
+  }
+  .topnav a {
+  float: Right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+  .topnav a:hover {
+  background-color:#D9D9D9;
+  color: black;
+  }
+  .topnav a.active {
+  background-color:#d9d9d9;
+  color: white;
+ 
+  }
+.headerJumbotron {
+  background-color: #228AEA;
+  margin-bottom: 5%;
+  Padding-top: 18%;
+  padding-bottom: 18%;
+  padding-left: 10%;
+  color: white;
+}
+#headerImage {
+  float: right;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  margin-right: 10%;
+  margin-top: -20%;
+}
+
+.lead{
+  color: white;
+}
+.objectiveGoals {
+  margin-left: 12%;
+  
+}
+.sectionHeaderBlue {
+    margin: -19px;
+    background-color: #228AEA;
+    background-image: linear-gradient(to right,#228AEA, white);
+    width: 50%;
+    height: 5vh;
+    margin-bottom: 2%;
+}
+
+.problemStament {
+  color: white;
+  Background-color: #1F4F7C;
+  padding:7%;
+  margin-bottom: 7%;
+}
+#problemStamentParagraph {
+  color: white;
+}
+
+.objectives {
+  background: #d9d9d9;
+  margin:5%;
+  margin-left:15%;
+  margin-right:15%;
+  padding: 5%;
+  display: flex;
+  justify-content:center;
+}
+
+
+.theProcess {
+  color: white;
+  Background-color: #1F4F7C;
+  padding:7%;
+  margin-bottom: 7%;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  padding-bottom: 4%;
+  font-size: 48pt;
+}
+
+h3 {
+font-size: 24pt;}
+
+h4{
+  font-size: 32pt;
+}
+
+p {color: black;}
+
+li {
+  margin-left: 5%;
+  margin-right:15%;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  color:black;
+  justify-content: center;
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  color:black;
+  justify-content: center;
+}
+
+#IpM1 {
+  height: 150px;
+  width: 50px;
+
+}
+
+.challenges {
+  margin-left: 12%;
+  margin-top: 5%;
+}
+
+#challengesListItems {
+  margin-left: 10%;
+  padding: 5px;
+  
+}
+
+.uX {
+  margin-top: -5.5%;
+  color: white;
+  Background-color: #1F4F7C;
+  padding:7%;
+  margin-bottom: 7%;
+  text-align: center;
+ 
+}
+.uX2 {
+  margin-top: 5%;
+  color: white;
+  Background-color: #1F4F7C;
+  padding:4%;
+  margin-bottom: 7%;
+  text-align: center;
+  margin: 5%;
+}
+#protoPersona {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+}
+
+#userInterview {
+  margin-left: 12%;
+}
+
+#uxInterviews {
+  padding-bottom: 3%;
+}
+
+.userResearch {
+  margin-left: 12%;
+  margin-top:5% ;
+}
+
+#userNeeds {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#userNeeds1 {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-bottom: 5%;
+}
+
+#userNeeds2 {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-bottom: 5%;
+}
+
+#userNeeds3 {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-bottom: 5%;
+}
+
+#FnF1 {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-bottom: 5%;
+}
+#FnF2 {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-bottom: 5%;
+}
+#hEnSM1 {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-bottom: 5%;
+}
+#hEnSM2 {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-bottom: 5%;
+}
+#hEnSM3 {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-bottom: 5%;
+}
+
+.flex-Container{
+  display: flex;
+  flex-direction: row;
+  background-color: #1F4F7C;
+  justify-content: center;
+}
+
+.flex-Container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+
+#uI1 {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin: 5%;
+
+}
+
+#uI2 {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin: 5%;
+ 
+}
+#uI3 {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin: 5%;
+}
+
+#mD  {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+#Sketches{
+  color: white;
+}
+
+.innerBox{
+  background-color: #d9d9d9;
+  margin: 5%;
+  padding: 5%;
+  justify-content: center;
+}
+
+.wireframe{
+  margin-bottom: 3%;
+}
+
+#hF1 {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-bottom: 5%;
+}
+
+#hF2 {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-bottom: 5%;
+}
+
+#hF3 {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-bottom: 5%;
+}
+
+#hF4 {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-bottom: 5%;
+}
+
+.thankYou {
+  border-style: solid;
+  border-color: black;
+  margin-left: 38%;
+  margin-right: 35%;
+  margin-top: 10%;
+  text-align: center;
+
+
+}
